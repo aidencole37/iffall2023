@@ -1,0 +1,43 @@
+html {
+    font-family: 'Crimson Text', serif;
+    color: grey;
+    font-size: 24pt;
+  }
+  body {
+    margin: 10%;
+}
+h1 {
+    
+  color: rgb(194, 67, 67);
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: auto;
+  font-family: 'Crimson Text', serif;
+  font-size: 50pt;
+}
+h2 {
+    
+    color: rgb(194, 67, 67);
+    
+    text-transform: capitalize;
+    text-indent: -1rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 24pt;
+  }
+p {
+  font-size: 24pt;
+  line-height: 1.4;
+}
+.moreSpace {
+    letter-spacing: .2em;
+}
+.lessSpace {
+    letter-spacing: -.07em;
+}
+.overline {
+    text-decoration: overline;
+}
+.capitalize {
+    text-transform: capitalize;
+}
