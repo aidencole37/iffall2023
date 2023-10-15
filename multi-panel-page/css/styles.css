@@ -1,0 +1,117 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header{
+    background-color: rgba(145, 117, 255, 0.5);
+    background-image: url("../image/istockphoto-1173244792-612x612.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+section.intro{
+    background-color: rgb(255, 192, 98);
+}
+
+section.content{
+    background-color: rgb(255, 99, 99);
+}
+
+section.conclusion{
+    background-color: rgb(140, 0, 255);
+}
+
+h1, h2, h3, p{
+    margin:0;
+}
+h1{
+    font-size: 80px;
+    color: whitesmoke;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    color:rgb(52, 229, 52);
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 34px;
+}
+
+h4{
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 17px;
+}
+
+.column_content{
+    width: 960px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header .column_content{
+    padding-top: 152px;
+    padding-bottom: 184px;
+}
+
+img.candy{
+    object-fit: cover;
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+img.exampleimg{
+    height: 150px;
+    object-fit: cover;
+    padding-right: 9px;
+    padding-bottom: 19px;
+    width: 200px;
+}
+
+.grid li{
+    display: inline-block;
+    vertical-align: top;
+}
+p.gridcaption{
+    width: 220px;
+    margin-top: 8px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+
+li.text{
+    padding-right: 44px;
+}
+
+ul.grid{
+    margin-block-start: 0px;
+    margin-block-end: -1px;
+}
+
+p.conclusion{
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    padding-bottom: 61px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+footer{
+    font-size: 18px;
+    background-color:white;
+}
