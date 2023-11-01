@@ -1,0 +1,448 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_lyft {
+
+    display: inline-block;
+    height: 40px;
+    box-sizing: content-box;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #ff00c8;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_lyft:hover {
+    background-color: #88006b;
+    color: #ffffff;
+    border: 2px solid #88006b;
+}
+
+a#btn_instagram {
+
+    display: inline-block;
+    height: 40px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_instagram:hover {
+    background: linear-gradient(45deg, #feccb1 0%,#ff35f1 30%,#ff3538 50%,#ea5507 64%,#ffc535 83%,#fb955e 100%);
+    color: #ffffff;
+    border: 2px solid #88006b;
+}
+
+a#btn_oldnavy {
+    display: inline-block;
+    height: 60px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: white;
+    color: navy;
+    font-size: 33px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a#btn_oldnavy:hover {
+    background: navy;
+    color: #ffffff;
+    border: 2px solid navy;
+    border-radius: 50%;
+    
+    
+}
+
+
+a#btn_cycles {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 6px #003764 inset, 0 0 0 -8px #ffffff inset; /* Double border effect */
+    border: 6px solid #930019;
+    color: #930019;
+    text-decoration: none;
+    transition: transform 1s ease;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a#btn_cycles:hover {
+    transform: rotate(360deg);
+}
+
+@keyframes swipe {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+a#btn_nike {
+    display: inline-block;
+    align-items: center;
+    margin-top: 120px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+a#btn_nike::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #000;
+    transform: translateX(-100%);
+    z-index: -1;
+    
+}
+
+a#btn_nike:hover::before {
+    animation: swipe 1s forwards;
+}
+
+a#btn_hsn {
+    display: inline-block;
+    height: 60px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(56, 172, 154);
+    color: rgb(16, 84, 81);
+    font-size: 33px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a#btn_hsn:hover {
+    background: rgb(56, 172, 154);
+    color: #ffffff;
+    border: 2px solid rgb(16, 84, 81);
+    border-radius: 30%;
+    box-shadow: 0 0 8px #00ffe5;
+    transform: scale(0.7);
+     
+}
+
+a#btn_hasbro {
+    display: inline-block;
+    height: 60px;
+    box-sizing: content-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(255, 242, 0);
+    color: rgb(255, 111, 0);
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a#btn_hasbro:hover {
+    background: rgb(255, 140, 0);
+    color: #ffea00;
+    border: 2px solid rgb(195, 0, 0);
+    border-radius: 0%;
+    box-shadow: 0 0 20px #ff0000ba;
+    
+     
+}
+a#btn_hasbro:hover {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: shake;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+@keyframes shake {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(2deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+  a#btn_colorrun {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    background: #ffffff;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+#btn_colorrun:hover {
+    
+    background: linear-gradient(45deg, #ffb76b 0%,#4300ff 36%,#ff7c00 71%,#ffa73d 92%,#ffa73d 92%,#ff7f04 100%);;
+    color: #ffffff;
+    font-style: italic;
+
+}
+
+a#btn_samsung {
+    display: inline-block;
+    height: 60px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: white;
+    color: navy;
+    font-size: 45px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a#btn_samsung:hover {
+    transition: 1s;
+    letter-spacing: 5pt;
+    color: #000;
+}
+
+a#btn_kittens {
+    display: inline-block;
+    height: 100px;
+    box-sizing: content-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(255, 143, 246);
+    color: rgb(255, 0, 208);
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a#btn_kittens:hover {
+    background:  radial-gradient(ellipse at center, #ff6b6b 0%,#faff00 9%,#ff0000 16%,#faff00 36%,#faff00 48%,#ff0000 55%,#faff00 62%,#ff7c00 71%,#faff00 78%,#ff0000 83%,#faff00 87%,#ffa73d 92%,#ffa73d 92%,#ff7f04 100%);
+    color: #000000;
+    border: 20px solid rgb(195, 0, 0);
+    border-radius: 0%;
+    box-shadow: 0 0 2000px #ff0000ba;
+    
+     
+}
+a#btn_kittens:hover {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: shake;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+@keyframes shake {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(2deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
